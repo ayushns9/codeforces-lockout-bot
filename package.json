@@ -1,0 +1,28 @@
+{
+  "name": "codeforces-lockout-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -r dotenv/config index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushns9/codeforces-lockout-bot.git"
+  },
+  "author": "Ayush Goel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayushns9/codeforces-lockout-bot/issues"
+  },
+  "homepage": "https://github.com/ayushns9/codeforces-lockout-bot#readme",
+  "dependencies": {
+    "firebase": "^8.2.1",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "dotenv": "^8.2.0"
+  }
+}
